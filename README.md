@@ -35,7 +35,7 @@ Ana hedef:
 .
 |-- data/
 |   `-- prepared-data/
-|-- data_prep_guı.py
+|-- data_prep_gui.py
 |-- ResNeSt/
 |   `-- 01_ResNeSt50_Training.ipynb
 |-- ResNeXt/
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 ## Ilk Asama Kullanim Akisi
 
-1. Gerekirse `data_prep_guı.py` ile veri hazirlama adimini tamamla.
+1. Gerekirse `data_prep_gui.py` ile veri hazirlama adimini tamamla.
 2. Asagidaki notebooklari sirayla calistir:
    - `ResNeSt/01_ResNeSt50_Training.ipynb`
    - `ResNeXt/02_ResNeXt50_Training.ipynb`
